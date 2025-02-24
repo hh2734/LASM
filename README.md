@@ -52,5 +52,7 @@ prf 0 - "print('_FILE = '.._FILE)"
 
 ## Usage:
 lua lasmtool lua input.lasm output.lua - LASM -> Lua
+
 lua lasmtool compile input.lasm output.lcc - LASM -> LASM (bin. mode)
+
 lua lasmtool run file.lcc - Run LASM (bin. mode)
