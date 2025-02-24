@@ -4,9 +4,11 @@
 op v1 v2 # Comment
 
 0xXXXXXXXX - Address
+
 123 (up to 4294967295) - Number
 
 v1 -> Address or number
+
 v2 -> Address or nothing
 
 ## Commands:
