@@ -1,0 +1,16 @@
+run      0x1 # PRINT 1->10 TEST LASM
+
+mov  1   0x01 # Start
+mov 10   0x02 # Max.
+mov  0   0x03 # Buffer
+
+jmp 12 
+add  1   0x03 # Add
+msg      0x03 # Print var 0x03
+chk 0x03 0x02 # Check
+jmp 13
+jmp 8 # Cycle
+
+prf 0 # Print _FILE
+
+end      0x1 # End of 0x1
