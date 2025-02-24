@@ -2,7 +2,11 @@
 
 ## Syntax:
 op v1 v2 # Comment
-v1 -> 0xXXXXXXXX - Address / 1234 (up to 0xFFFFFFFF) - Number
+
+0xXXXXXXXX - Address
+123 (up to 4294967295) - Number
+
+v1 -> Address or number
 v2 -> Address or nothing
 
 ## Commands:
