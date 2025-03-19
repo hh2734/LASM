@@ -42,7 +42,7 @@ exe - **Soon**
 
 arg - **Soon**
 
-acl - **Soon**
+acl - _ARGS={}
 
 set - **Soon**
 
@@ -53,8 +53,8 @@ msg (num/addr1) - "print(num|addr1)"
 prf 0 - "print('_FILE = '.._FILE)"
 
 ## Usage:
-lua lasmtool lua input.lasm output.lua - LASM -> Lua
+lua lasmtool lua -f input.lasm -o output.lua - LASM -> Lua
 
-lua lasmtool compile input.lasm output.lcc - LASM -> LASM (bin. mode)
+lua lasmtool compile -f input.lasm -o output.lcc - LASM -> LASM (bin. mode)
 
-lua lasmtool run file.lcc - Run LASM (bin. mode)
+lua lasmtool run -f file.lcc - Run LASM (bin. mode)
