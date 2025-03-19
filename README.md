@@ -14,7 +14,7 @@ v2 -> Address or nothing
 ## Commands:
 mov (num/addr1) addr2 - "addr2 = num|addr1"
 
-jmp num - "goto line[num]"
+jmp num - "goto \_[file]\_[num]"
 
 clr addr - "addr = nil"
 
