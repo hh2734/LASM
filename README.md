@@ -40,9 +40,9 @@ err (num/addr1) - "error(num|addr)"
 
 exe - **Soon**
 
-arg - **Soon**
+arg - ""
 
-acl - _ARGS={}
+acl - "_ARGS={}"
 
 set - **Soon**
 
