@@ -53,13 +53,15 @@ msg (num/addr1) - "print(num|addr1)"
 prf 0 - "print('_FILE = '.._FILE)"
 
 ## Usage:
+
+LASM -> Lua:
 lua lasmtool lua -s -f file.lasm -h header.lx -o output.lua - LASM -> Lua
 -s: static
 -d: dynamic
 
-OR
-
 lua lasmtool lua -f file.lasm -o output.lua - Headerless
+
+LASM (bin. mode):
 
 lua lasmtool compile -f file.lasm -o output.lcc - LASM -> LASM (bin. mode)
 
